@@ -1,0 +1,4 @@
+#!/usr/bin/env ruby
+
+require 'reloadapp'
+puts Reloadapp.run(ARGV[0])
