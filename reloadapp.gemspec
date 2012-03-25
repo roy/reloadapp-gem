@@ -18,4 +18,5 @@ Reloadapp will watch your code for changes, and whenever it spots a change, it w
   gem.name          = "reloadapp"
   gem.require_paths = ["lib"]
   gem.version       = Reloadapp::VERSION
+  gem.add_development_dependency "rb-fsevent"
 end
