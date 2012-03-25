@@ -12,7 +12,7 @@ module Reloadapp
 
   def self.on_change &block
     FSEvent.new.tap do |fsevent|
-      fsevent.watch(., &block)
+      fsevent.watch('.', &block)
       fsevent.run
     end
   end
